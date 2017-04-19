@@ -17,14 +17,14 @@
   {{ end }}
   <link rel="apple-touch-icon-precomposed" href="/images/icons/{{ .Site.Params.appleicon  }}" />
 
-  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 
   {{ if not .Site.Params.custom_background }}
-    <link rel="stylesheet" href="/assets/css/page.css" />
+    <link rel="stylesheet" href="assets/css/page.css" />
   {{ end }}
 
   {{ if not .Site.Params.custom_icons }}
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
   {{ end }}
 
   {{ range .Site.Params.custom_css }}
