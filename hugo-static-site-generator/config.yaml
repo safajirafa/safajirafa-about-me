@@ -1,0 +1,42 @@
+baseurl: http://andresvalencia.info 
+languageCode: en-us
+title: safajirafa
+theme: hugo-identity-theme
+
+# Github pages
+publishDir: docs 
+
+# Enter your tracking code to enable Google Analytics
+# googleAnalytics = "UA-XXXXX-Y"
+
+params:
+  personal:
+    name: Andrés Valencia
+    avatar: //avatars1.githubusercontent.com/u/735303?v=3&u=25bb8b7f1c676dac3e85a02fe1e5d01342459a0a&s=400
+    position: Senior Engineer
+    livesIn: Bogotá - Colombia
+    scope:
+     - I'm a Fullstack engineer
+     - I advocate for Cloud architectures 
+    biography: 🥇 Discipline beats intelligence 🥇
+
+  contact:
+    email: andres.valencia.ospina@gmail.com
+    enable: false
+
+  social:
+    - icon: fa-twitter
+      link: //twitter.com/safajirafa
+      title: Twitter
+
+    - title: Github
+      icon: fa-github
+      link: //github.com/safajirafa
+
+  footer:
+    copyright: Safajirafa inc
+
+  credits:
+    - title: HTML5UP
+      text: Design by
+      link: //html5up.net
