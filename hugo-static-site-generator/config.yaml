@@ -1,0 +1,39 @@
+baseurl: http://andresvalencia.info 
+languageCode: en-us
+title: safajirafa
+theme: hugo-identity-theme
+
+# Enter your tracking code to enable Google Analytics
+# googleAnalytics = "UA-XXXXX-Y"
+
+params:
+  personal:
+    name: Andrés Valencia
+    avatar:
+    position: Senior Engineer
+    livesIn: Bogotá - Colombia
+    scope:
+     - Senior Frontend Engineer at Appdirect
+     - Frontend developer at Quintiles IMS
+    biography: Discipline beats intelligence
+
+  contact:
+    email: andres.valencia.ospina@gmail.com
+    enable: false
+
+  social:
+    - icon: fa-twitter
+      link: //twitter.com/safajirafa
+      title: Twitter
+
+    - title: Github
+      icon: fa-github
+      link: //github.com/safajirafa
+
+  footer:
+    copyright: Safajirafa inc
+
+  credits:
+    - title: HTML5UP
+      text: Design by
+      link: //html5up.net
